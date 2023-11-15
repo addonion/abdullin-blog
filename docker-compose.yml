@@ -7,7 +7,7 @@ services:
       - ./nginx:/etc/nginx/conf.d
       - ./data/html:/var/www/html
     ports:
-      - 8080:80
+      - 8083:80
     depends_on:
       - wordpress
 
